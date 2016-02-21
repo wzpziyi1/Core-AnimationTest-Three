@@ -16,6 +16,8 @@
 		09C7310D1C71642B00383917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C7310B1C71642B00383917 /* LaunchScreen.storyboard */; };
 		09C731181C71642B00383917 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C731171C71642B00383917 /* ____Tests.m */; };
 		09C731231C71642B00383917 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C731221C71642B00383917 /* ____UITests.m */; };
+		09C731351C71658E00383917 /* ZYWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C731341C71658E00383917 /* ZYWheelView.m */; };
+		09C731371C7165A000383917 /* ZYWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C731361C7165A000383917 /* ZYWheelView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		09C7311E1C71642B00383917 /* 彩票转盘UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票转盘UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C731221C71642B00383917 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		09C731241C71642B00383917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C731331C71658E00383917 /* ZYWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWheelView.h; sourceTree = "<group>"; };
+		09C731341C71658E00383917 /* ZYWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWheelView.m; sourceTree = "<group>"; };
+		09C731361C7165A000383917 /* ZYWheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYWheelView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +113,9 @@
 				09C731001C71642B00383917 /* ViewController.h */,
 				09C731011C71642B00383917 /* ViewController.m */,
 				09C731031C71642B00383917 /* Main.storyboard */,
-				09C731091C71642B00383917 /* Assets.xcassets */,
-				09C7310B1C71642B00383917 /* LaunchScreen.storyboard */,
-				09C7310E1C71642B00383917 /* Info.plist */,
-				09C731061C71642B00383917 /* ____.xcdatamodeld */,
+				09C731331C71658E00383917 /* ZYWheelView.h */,
+				09C731341C71658E00383917 /* ZYWheelView.m */,
+				09C731361C7165A000383917 /* ZYWheelView.xib */,
 				09C730FA1C71642B00383917 /* Supporting Files */,
 			);
 			path = "彩票转盘";
@@ -120,6 +124,10 @@
 		09C730FA1C71642B00383917 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09C731091C71642B00383917 /* Assets.xcassets */,
+				09C7310B1C71642B00383917 /* LaunchScreen.storyboard */,
+				09C7310E1C71642B00383917 /* Info.plist */,
+				09C731061C71642B00383917 /* ____.xcdatamodeld */,
 				09C730FB1C71642B00383917 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -249,6 +257,7 @@
 				09C7310D1C71642B00383917 /* LaunchScreen.storyboard in Resources */,
 				09C7310A1C71642B00383917 /* Assets.xcassets in Resources */,
 				09C731051C71642B00383917 /* Main.storyboard in Resources */,
+				09C731371C7165A000383917 /* ZYWheelView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +284,7 @@
 			files = (
 				09C731021C71642B00383917 /* ViewController.m in Sources */,
 				09C731081C71642B00383917 /* ____.xcdatamodeld in Sources */,
+				09C731351C71658E00383917 /* ZYWheelView.m in Sources */,
 				09C730FF1C71642B00383917 /* AppDelegate.m in Sources */,
 				09C730FC1C71642B00383917 /* main.m in Sources */,
 			);

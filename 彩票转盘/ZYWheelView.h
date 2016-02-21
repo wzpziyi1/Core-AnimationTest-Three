@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ZYWheelView : UIView
++ (instancetype)wheelView;
+
+- (void)startRotating;
+
+- (void)stopRotating;
 
 @end
